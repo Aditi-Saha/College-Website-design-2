@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.css-selector {
+    font-family: 'Montserrat', serif;
+}
+.css-selector2{
+        font-family: 'Roboto', serif;
+}
+.header{
+    height: 100px;
+}
+.hidden .nav-link:hover{
+   background-color: #f65a29;
+    border-color: white;
+    color: black;
+} 
+.logo1{
+ font-size: 35px;
+ padding-left: 5px;
+}
+.logo1 img{
+    width: 80px;
+}
+.images_logo img{
+    width: 80px;
+    margin-left: 20px;
+}
+.images_logo{
+   float: right;
+   position: relative;
+}
+.catg_title{
+    text-decoration: none;
+    text-align: center;
+}
+.imlogo-img{
+    width: 25%;
+} 
+.announcements__text{
+    font: 16px / 40px ;
+    background: #395183;
+    float: left;
+    color: #fff;
+    margin: 0;
+    padding-right: 55px;
+    padding-left: 50px;
+    padding-bottom: 19px;
+    position: relative;
+}
+.banner{
+    height: 256px;
+    box-shadow: inset  0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+.banner:after {
+    content:'';
+    position:absolute;
+    width:100%;
+    height:256px;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+  }
+.banner_text{
+    color: white;
+    max-width: 382px;
+    position: absolute;
+    z-index: 6;
+    bottom: 60%;
+    left: 40%;
+    border-bottom: 1px solid #fff;
+}
+.heading h3{
+    background: #dde2e5;
+    color: #395183;
+}
+.images_logo2{
+    width: 200px;
+}
+.about{
+    padding-left: 91px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.career_img{
+    width: 90%;
+}

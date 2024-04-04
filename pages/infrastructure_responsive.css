@@ -1,0 +1,53 @@
+@media (min-width:990px){
+    .collapse ul{
+     display: none;
+    }
+   }
+   @media (max-width:991.98px){
+     .hidden{
+       display: none;
+     }
+     .banner_text {
+      color: white;
+      max-width: 382px;
+      position: absolute;
+      z-index: 6;
+      bottom: 73%;
+      left: 19%;
+      border-bottom: 1px solid #fff;
+     }
+   }
+   
+ @media (max-width:991.98px){
+    .header{
+      height: 70px;
+      padding: 0px;
+      margin: 0px;
+    }
+    .images_logo{
+      margin-left: 128px;
+    }
+ }
+@media (max-width:991.98px){
+  .logo1 img{
+    width: 50px;
+  }
+  .images_logo img{
+    width: 50px;
+  }
+  .logo1{
+    font-size: 20px;
+  }
+  .announcements__text{
+    display: none;
+  }
+  .images_logo{
+    display: none;
+  }
+}
+
+@media (mx-width:991.98px){
+    .about{
+        padding-left: 35px;
+    }
+}

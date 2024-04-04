@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.css-selector {
+    font-family: 'Montserrat', serif;
+}
+.css-selector2{
+        font-family: 'Roboto', serif;
+}
+.header{
+    height: 100px;
+}
+.hidden .nav-link:hover{
+    background-color: #f65a29;
+    border-color: white;
+    color: black;
+}
+.logo1{
+ font-size: 35px;
+ padding-left: 5px;
+}
+.logo1 img{
+    width: 80px;
+}
+.images_logo img{
+    width: 80px;
+    margin-left: 20px;
+}
+.images_logo{
+   float: right;
+   position: relative;
+}
+.catg_title{
+    text-decoration: none;
+    text-align: center;
+}
+marquee{
+    justify-content: center;
+}
+.imlogo-img{
+    width: 25%;
+} 
+.announcements__text{
+    font: 16px / 40px ;
+    background: #395183;
+    float: left;
+    color: #fff;
+    margin: 0;
+    padding-right: 55px;
+    padding-left: 50px;
+    padding-bottom: 19px;
+    position: relative;
+}

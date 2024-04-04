@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.css-selector {
+    font-family: 'Montserrat', serif;
+}
+.css-selector2{
+        font-family: 'Roboto', serif;
+}
+.header{
+    height: 100px;
+}
+
+.hidden .nav-link:hover{
+    background-color: #f65a29;
+    border-color: white;
+    color: black;
+}
+.logo1{
+ font-size: 35px;
+ padding-left: 5px;
+}
+.logo1 img{
+    width: 80px;
+}
+.images_logo img{
+    width: 80px;
+    margin-left: 20px;
+}
+.images_logo{
+   float: right;
+   position: relative;
+}
+.catg_title{
+    text-decoration: none;
+    text-align: center;
+}
+marquee{
+    justify-content: center;
+}
+
+.aboutimg{
+width: 45%;
+float: left;
+padding-right: 20px;
+z-index: -9;
+}
+.parallax {
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #b8babf;
+}
+.heading h3{
+    background: #CCCCCC;
+    color: #000f3a;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.heading{
+    text-align: center;
+}
+.imlogo-img{
+    width: 25%;
+}
+
+.maintxt{
+	color: #1f1f1f;
+	font-weight: 500;
+	font-size: 20px;
+}
+.name{
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+    padding-left: 5px;
+}
+.announcements__text{
+    font: 16px / 40px ;
+    background: #000f3a;
+    border-radius: 50px 0px 50px 0px;
+    float: left;
+    color: #fff;
+    margin: 0;
+    padding-right: 55px;
+    padding-left: 50px;
+    padding-bottom: 14px;
+    position: relative;
+    padding-top: 14px;
+}
+.modal-img{
+    width: 100%;
+}
+
+.banner{
+    height: 513px;
+    box-shadow: inset  0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+.banner:after {
+    content:'';
+    position:absolute;
+    width:100%;
+    height:513px;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+  }
+.banner_text{
+    color: white;
+    max-width: 330px;
+    position: absolute;
+    z-index: 6;
+    bottom: 43%;
+    left: 5%;
+    border-bottom: 1px solid #fff;
+}
+.banner_text2{
+    color: white;
+    max-width: 330px;
+    position: absolute;
+    z-index: 6;
+    bottom: 30%;
+    left: 5%;
+    border-bottom: 1px solid #fff;
+}
